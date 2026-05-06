@@ -16,7 +16,7 @@ const ProjPicMosley = () => {
             <section className="sectionProjectPic">
                 <div className="divProjPicLanding">
                     <div className="divProjectsImage">
-                        <img
+                        <img 
                             alt="ProjectPicture"
                             src={Mosley}
                             className="projectsLandingImage"
