@@ -4,6 +4,7 @@ import TeamMembersOkunola from "./TeamMembersOkunola";
 import TeamMembersKoya from "./TeamMembersKoya";
 import TeamMembersFemi from "./TeamMembersFemi";
 import TeamMembersAkanni from "./TeamMembersAkanni";
+import TeamMembersWife from "./TeamMembersWife";
 
 const TeamMembers = () => {
   return (
@@ -16,6 +17,7 @@ const TeamMembers = () => {
         <TeamMembersKoya />
         <TeamMembersFemi />
         <TeamMembersAkanni />
+        <TeamMembersWife />
       </section>
     </>
   );

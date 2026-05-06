@@ -1,4 +1,5 @@
 import React from "react";
+import heroImageVideo from "../Components/Assets/Video/KgVideo1.mp4";
 import "../Styles/main.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -8,25 +9,37 @@ const Hero = (props) => {
   return (
     <>
       <div className="divHero">
+        <video
+          className="heroImageVideo"
+          autoPlay="true"
+          loop="true"
+          muted="true"
+        >
+          <source src={heroImageVideo} />
+        </video>
+
         <div className="landingPageText">
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5, duration: 5 }}
+            initial={{ opacity: 0, y: "+50px" }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2, delay: 2, ease: "easeInOut" }}
+            viewport={{ once: true }}
+            exit={{ opacity: 1, y: "-50px" }}
           >
             <h1 className="openingPhrase">
-              Delivering Real
+              K-GREAT
               <br />
-              Value Beyond <br />
-              Expectations.
+              ENGINEERING
             </h1>
-          </motion.div> 
+          </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.5, duration: 5 }}
+            transition={{ delay: 3, duration: 5 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
           >
-            <p className="openingPhraseItems"> 
+            <p className="openingPhraseItems">
               Mechanical Engineering | Electrical Engineering
             </p>
             <p></p>
@@ -35,9 +48,11 @@ const Hero = (props) => {
             <Link to="/Projects">
               <motion.button
                 className="GITButton"
-                initial={{ x: "-100%", opacity: 0 }}
-                animate={{ x: "0", opacity: 1 }}
-                transition={{ delay: 0.2, duration: 4 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 3, delay: 3.5, ease: "easeInOut" }}
+                viewport={{ once: true }}
+                exit={{ opacity: 1 }}
               >
                 <p className="textGITButton">
                   Get In Touch <TiArrowRight className="linkArrow" />
@@ -46,6 +61,8 @@ const Hero = (props) => {
             </Link>
           </div>
         </div>
+
+
 
         {/* <div className="divHeroLinks">
           <div className="divHeroLinks-1">

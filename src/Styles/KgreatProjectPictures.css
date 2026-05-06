@@ -1,0 +1,137 @@
+.sectionProjectPictures {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Adds space between images */
+  justify-content: center;
+  margin: auto;
+}
+
+.headingSectionProjectPictures {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Poppins", cursive;
+  letter-spacing: 3px;
+  color: #0e0e7b;
+  margin-bottom: 3rem;
+}
+
+.headingSectionProjectPicturesOne {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Poppins", cursive;
+  letter-spacing: 3px;
+  color: #f60707;
+  margin-bottom: 3rem;
+}
+
+.divSpacing {
+  margin-top: 10rem;
+}
+
+.divProjectImages {
+  width: 250px; /* Adjust as needed */
+  height: 400px;
+  /* margin: auto; */
+  justify-self: right;
+  position: relative;
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+}
+
+.projectImages {
+  /* box-shadow: 0 0 10px 1px #0a0e7c; */
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+  transition: transform 1s ease-in-out;
+}
+
+.sectionProjectPictures > .divHomeChooseImage {
+  flex: 200px;
+}
+
+.divProjectImages:hover {
+  transform: scale(0.98);
+}
+
+.projectImages:hover {
+  transform: scale(1.1);
+}
+
+.textProjectName {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  margin: auto;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0.8rem 1.7rem;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.aboutProject {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  width: 100%;
+  line-height: 35px;
+  font-family: "Poppins", cursive;
+}
+
+@media only screen and (max-width: 800px) {
+  .sectionProjectPictures {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Adds space between images */
+    justify-content: center;
+    margin: auto;
+  }
+
+  .textProjectName {
+    font-size: 0.7rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .headingSectionProjectPictures {
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+  }
+
+  .headingSectionProjectPicturesOne {
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+  }
+
+  .divSpacing {
+    margin-top: 5rem;
+  }
+
+  .aboutProject {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    line-height: 35px;
+    font-family: "Poppins", cursive;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .divProjectImages {
+    width: 300px;
+    height: 400px;
+  }
+}

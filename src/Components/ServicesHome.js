@@ -14,17 +14,20 @@ export const ServicesHome = () => {
     <>
       <motion.section
         className="sectionServicesHome"
-        // initial={{ opacity: 0, y: "+30vh" }}
-        // whileInView={{ opacity: 1, y: 0 }}
-        // transition={{ duration: 3 }}
-        // viewport={{ once: true }}
+        initial={{ opacity: 1, y: "+50px" }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
+        viewport={{ once: true }}
+        exit={{ opacity: 1, y: "-50px" }}
       >
         <div className="divServicesHome">
-          <img
-            className="servicesImage"
-            alt="ServicesImage"
-            src={ServiceImage1}
-          />
+          <div className="divOfImage">
+            <img
+              className="homeProjectImage"
+              alt="ServicesImage"
+              src={ServiceImage1}
+            />
+          </div>
           <div className="divservicesHomeText">
             <p className="servicesHomeText">
               Computer <br />
@@ -83,9 +86,11 @@ export const ServicesHome = () => {
           </div>
           <div>
             <Link to="/Projects" className="divServicesLink">
-              <p className="servicesLink">
-                View All Services <TiArrowRight className="linkArrow" />
-              </p>
+              <button className="buttonServices">
+                <p className="servicesLink">
+                  View All Services <TiArrowRight className="linkArrow" />
+                </p>
+              </button>
             </Link>
           </div>
         </div>

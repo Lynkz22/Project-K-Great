@@ -83,7 +83,7 @@ const Footer = () => {
             <i className="fa-brands fa-facebook-square"></i>
           </Link> */}
           <Link
-            to="https://www.instagram.com/kgreat.engineering1/"
+            to="https://www.instagram.com/kgreat.engineering/"
             className="footerLink"
             target="_blank"
             rel="noopener noreferrer"

@@ -9,11 +9,11 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <Hero
+      {/* <Hero
         cName="hero"
         heroImg="https://r4.wallpaperflare.com/wallpaper/943/325/116/car-bmw-m3-bmw-race-cars-wallpaper-e9e0b8adf1aa0d1b3627c8af00a1e6ed.jpg"
         title="Amnon. Is. Me."
-      />
+      /> */}
       <ContactIntro />
       <ContactMain />
       <Footer />

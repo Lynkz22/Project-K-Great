@@ -20,9 +20,10 @@
 }
 
 .gitPhrase {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #fff;
   margin: auto;
+  text-transform: capitalize;
 }
 
 .divGITContactButton-1 {
@@ -31,15 +32,16 @@
 }
 
 .gitContactButton-1 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #ff2400;
-  letter-spacing: 2px;
-  padding: 0.3rem 1.1rem 0.3rem 1.1rem;
+  letter-spacing: 1px;
+  padding: 0.5rem 1.1rem 0.5rem 1.1rem;
   background-color: #fff;
   border-radius: 15px;
   font-family: "Poppins", cursive;
   /* text-transform: uppercase; */
   font-weight: 600;
+  border-radius: 0 10px 0 10px;
 }
 
 .gitContactButton-1:hover {

@@ -1,13 +1,14 @@
 .sectionNote {
   display: grid;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   margin: 0 auto 10rem auto;
-  background-image: url(../Components/Assets/LandingPageBcg/BH6.jpg);
+  background-image: url(../Components/Assets/Review/Review1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  filter: brightness(1);
 }
 
 .divNote {
@@ -30,8 +31,8 @@
 .noteParagraph {
   text-align: start;
   font-family: "Poppins", cursive;
-  letter-spacing: 1px;
-  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  font-size: 0.85rem;
   line-height: 1.6;
 }
 
@@ -45,7 +46,7 @@
   }
 
   .noteParagraph {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 

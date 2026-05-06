@@ -15,15 +15,48 @@
   height: 100%;
   margin: auto;
   position: relative;
+  transition: transform 1s ease-in-out;
+  overflow: hidden;
 }
 
 .servicesImage {
   width: 100%;
   height: 100%;
-  display: block;
+  /* display: block; */
   object-fit: cover;
   opacity: 1;
   box-shadow: 0 0 20px 1px #cfb095;
+  transition: transform 1s ease-in-out;
+  overflow: hidden;
+}
+
+.divServicesHome:hover {
+  transform: scale(0.95);
+}
+
+.divOfImage {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  transition: transform 1s ease-in-out;
+  overflow: hidden;
+}
+
+.homeProjectImage {
+  /* box-shadow: 0 0 10px 1px #0a0e7c; */
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+  transition: transform 1s ease-in-out;
+}
+
+.divOfImage:hover {
+  transform: scale(0.95);
+}
+
+.homeProjectImage:hover {
+  transform: scale(0.6);
 }
 
 .divservicesHomeText {
@@ -75,10 +108,10 @@
   text-decoration: none;
 }
 
-.servicesImage {
+/* .servicesImage {
   width: 100%;
   object-fit: cover;
-}
+} */
 
 .divServLink {
   height: 100%;
@@ -87,17 +120,24 @@
 
 .divServicesLink {
   text-decoration: none;
-  background-color: #ff2400;
+  /* background-color: #ff2400; */
+  display: flex;
+  display: flex;
+  cursor: pointer;
+  border: none;
+  margin: auto 0;
+  /* justify-content: start; */
 }
 
 .servicesLink {
   width: 50%;
   text-decoration: none;
   color: #fff;
-  background-color: #ff2400;
+  /* background-color: #ff2400; */
   padding: 5px 0 5px 0;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   margin: auto 0 auto 0;
+  text-align: center;
 }
 
 .servicesLink:hover {
@@ -105,8 +145,38 @@
   transition: 2s ease-out;
 }
 
-.linkArrow {
+.buttonServices {
+  border: none;
+  /* border-radius: 8px; */
+  background-color: #ff2400;
+  text-align: center;
+  padding: 0.3rem 2rem;
+}
+
+.servicesLink {
+  font-size: 0.8rem;
+  color: #000;
+  /* background-color: #ff2400; */
+  letter-spacing: 2px;
+  color: #000;
+  width: 100%;
+}
+
+.buttonServices:hover {
+  background-color: #fff;
+  transition: 1.5s ease-in-out;
+  color: #000;
+}
+
+.servicesLink:hover {
   color: #fff;
+  transition: 1.5s ease-in-out;
+  background-color: #fff;
+  color: #000;
+}
+
+.linkArrow {
+  color: #000;
   font-size: 1.5rem;
   margin: auto;
   vertical-align: middle;

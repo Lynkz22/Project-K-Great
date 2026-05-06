@@ -17,8 +17,11 @@ import ProjPicTagboOzor from "./ProjPicTagboOzor";
 import ProjPicClinicRemodelling from "./ProjPicClinicRemodelling";
 import ProjPicExclusiveNet from "./ProjPicExclusiveNet";
 import ProjPicMarieStopes from "./ProjPicMarieStopes";
-import ProjPicMarieStopesAsaba from "./ProjPicMarieStopesAsaba";
+import ProjPicMarieStopesAsaba from "./ProjPicMarieStopesBenin";
 import ProjPicMarieStopesNew from "./ProjPicMarieStopesNew";
+import ProjPicGlover from "./ProjPicGlover";
+import ProjPicOgudu from "./ProjPicOgudu";
+import ProjPicRockmouldTheRock from "./ProjPicRockmouldTheRock";
 
 const ProjectsPage = () => {
   return (
@@ -92,6 +95,9 @@ const ProjectsPage = () => {
         <ProjPicMarieStopes />
         <ProjPicMarieStopesAsaba />
         <ProjPicMarieStopesNew />
+        <ProjPicGlover />
+        <ProjPicOgudu />
+        <ProjPicRockmouldTheRock />
       </section>
     </>
   );

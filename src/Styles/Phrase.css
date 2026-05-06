@@ -1,5 +1,5 @@
 .sectionPhrase {
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   display: grid;
 }
@@ -18,23 +18,36 @@
 }
 
 .textPhrase-1 {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   letter-spacing: 4px;
+  font-family: "Playwrite IE", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-transform: capitalize;
 }
 
 .textPhrase-2 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   letter-spacing: 3px;
+  font-family: "Playwrite IE", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-transform: capitalize;
+  color: #ff2400;
 }
 
 .textPhrase-3 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   letter-spacing: 2px;
+  font-family: "Playwrite IE", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-transform: capitalize;
 }
 
 .textPhrase-4 {
   font-size: 1.1rem;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   color: #ff2400;
   font-weight: 600;
 }
@@ -64,10 +77,6 @@
     margin: auto;
   }
 
-  .divPhrase {
-    gap: 0.5rem;
-  }
-
   .divPhrase span {
     font-size: 1.5rem;
   }
@@ -92,7 +101,10 @@
 @media screen and (max-width: 500px) {
   .sectionPhrase {
     height: 50vh;
+  }
 
+  .divPhrase {
+    gap: 0.5rem;
   }
 
   .textPhrase-1 {

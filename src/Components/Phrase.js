@@ -25,7 +25,7 @@ const Phrase = () => {
             viewport={{ once: true }}
           >
             <p className="textPhrase-1">
-              Building a better world, one brick at a time
+              Building a better world, one system at a time
             </p>
             <br />
             <p className="textPhrase-2">

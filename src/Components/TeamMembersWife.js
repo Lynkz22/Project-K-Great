@@ -1,36 +1,34 @@
 import React from "react";
-import wife from "../Components/Assets/Beach-House/BH1.jpg";
+import Jumoke from "../Components/Assets/TeamMembers/MrsJumoke.jpg";
 
 const TeamMembersWife = () => {
   return (
     <>
       <div className="teamMembers">
         <div className="teamMembers-1">
-          {/* <div className="divTeamMembersImage">
+          <div className="divTeamMembersImage">
             <img
               className="teamMembersImage"
-              alt="Olabode Saheed"
-              src={okunola}
+              alt="Koya Oluwasegun "
+              src={Jumoke}
             />
-          </div> */}
+          </div>
           <div className="teamMembersName">
             <h1>
               Okunola <br />
-              Adekunle
+              Adejumoke
             </h1>
             <p> Accountant</p>
           </div>
         </div>
         <div className="teamMembersText">
           <p>
-            <b>Adekunle</b> holds a Bachelor Degree in Accountant from the
-            University of Lagos. She has her Masters in Accounting and has an
-            extensive experience as an accountant. She had years of experience
-            in financial management and reporting, excels in maintaining
-            accurate financial records and ensuring compliance with regulatory
-            standards. She is known for their meticulous attention to detail,
-            they have a proven track record of identifying cost-saving
-            opportunities and streamlining financial processes.
+            <b>Adejumoke</b> holds a Bachelor Degree in Psychology from the
+            University of Lagos. She also has a Masters Degree in Psychology.
+            She has worked professionally in the field and she has overseen a
+            vast number of projects. She has worked on various projects, from
+            small to large scale, private and commercial, and she has a knack
+            for delivering exceptional quality.
           </p>
         </div>
       </div>
